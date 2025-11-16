@@ -1,14 +1,13 @@
 
-import './App.css'
+import "./App.css";
+import StudentTable from "./components/StudentTable";
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-100 flex items-center justify-center">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Tailwind is working 🎉
-      </h1>
+    <div className="container mx-auto p-4">
+      <StudentTable />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
